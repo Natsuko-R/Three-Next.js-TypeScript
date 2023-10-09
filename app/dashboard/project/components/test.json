@@ -1,0 +1,66 @@
+{
+    "walls": [
+        {
+            "deviceId": 10000,
+            "deviceName": "wall",
+            "posX": 300,
+            "posY": 300,
+            "posZ": -60,
+            "rotX": 98,
+            "rotY": 0,
+            "rotZ": 80,
+            "operation": 0,
+            "houseId": 0
+        },
+        {
+            "deviceId": 10001,
+            "deviceName": "wall",
+            "posX": 150,
+            "posY": 100,
+            "posZ": -60,
+            "rotX": 180,
+            "rotY": 10,
+            "rotZ": 30,
+            "operation": 0,
+            "houseId": 0
+        },
+        {
+            "deviceId": 10002,
+            "deviceName": "wall",
+            "posX": 0,
+            "posY": 100,
+            "posZ": -60,
+            "rotX": 30,
+            "rotY": -90,
+            "rotZ": 50,
+            "operation": 0,
+            "houseId": 0
+        }
+    ],
+    "waterTanks": [
+        {
+            "deviceId": 20000,
+            "deviceName": "waterTank",
+            "posX": 60,
+            "posY": 100,
+            "posZ": -60,
+            "rotX": 0,
+            "rotY": 100,
+            "rotZ": 0,
+            "operation": 0,
+            "houseId": 0
+        },
+        {
+            "deviceId": 20001,
+            "deviceName": "waterTank",
+            "posX": 0,
+            "posY": 200,
+            "posZ": 0,
+            "rotX": 180,
+            "rotY": 10,
+            "rotZ": 30,
+            "operation": 0,
+            "houseId": 0
+        }
+    ]
+}
