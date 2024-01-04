@@ -1,13 +1,11 @@
+import { ToasterProvider } from '@/provider/toast-provider'
+import { ThemeProvider } from '@/provider/theme-provider'
 import './globals.css'
-import type { Metadata } from 'next'
+import { TailwindIndicator } from '@/components/tailwind-indicator' // show @media device size
+import { ThemeToggle } from '@/components/theme-toggle'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
-
-export const metadata: Metadata = {
-  title: 'Three.js Test',
-  description: 'Hello Natsuki !',
-}
 
 export default function RootLayout({
   children,
@@ -15,8 +13,25 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={`${inter.className} bg-slate-800 text-slate-100`}>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <link
+          rel="icon"
+          href="/icon?<generated>"
+          type="image/png"
+          sizes="32x32"
+        />
+      </head>
+      <body className={`${inter.className} bg-slate-800 text-slate-100`}>
+        <ToasterProvider />
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
+          <TailwindIndicator />
+          <ThemeToggle />
+          <div className="flex min-h-screen flex-col">
+            {children}
+          </div>
+        </ThemeProvider>
+      </body>
     </html>
   )
 }

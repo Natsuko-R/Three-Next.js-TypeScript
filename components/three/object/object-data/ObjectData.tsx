@@ -11,28 +11,4 @@ export default class ObjectData {
         this.deviceName = deviceName
     }
 
-    public setParentObject(object: Object3D) {
-        this.parentObject = object
-    }
-
-    public getParentObject() {
-        return this.parentObject
-    }
-
-    public setDeviceId(objectId: number) {
-        this.deviceId = objectId
-    }
-
-    public getDeviceId() {
-        return this.deviceId
-    }
-
-    public setAttribute(attribute: string) {
-        this.deviceName = attribute
-    }
-
-    public getAttribute() {
-        return this.deviceName
-    }
-
 }

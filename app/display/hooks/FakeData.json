@@ -1,0 +1,531 @@
+{
+  "houseSize": {
+    "floorType": 1,
+    "roofNumber": 3,
+    "length": 8
+  },
+  "isBigCurtain": true,
+  "windows": [
+    {
+      "deviceId": 1,
+      "type_id": 18,
+      "place_type": 1,
+      "loc_id": 6,
+      "attribute": "Window1",
+      "degree": 100
+    },
+    {
+      "deviceId": 2,
+      "type_id": 58,
+      "place_type": 1,
+      "loc_id": 5,
+      "attribute": "Window2",
+      "degree": 90
+    },
+    {
+      "deviceId": 3,
+      "type_id": 58,
+      "place_type": 1,
+      "loc_id": 4,
+      "attribute": "Window3",
+      "degree": 50
+    },
+    {
+      "deviceId": 0,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "Window4",
+      "degree": 0
+    },
+    {
+      "deviceId": 0,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "Window5",
+      "degree": 0
+    },
+    {
+      "deviceId": 0,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "Window6",
+      "degree": 0
+    },
+    {
+      "deviceId": 0,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "Window7",
+      "degree": 0
+    },
+    {
+      "deviceId": 0,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "Window8",
+      "degree": 0
+    },
+    {
+      "deviceId": 0,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "Window9",
+      "degree": 0
+    },
+    {
+      "deviceId": 0,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "Window10",
+      "degree": 0
+    },
+    {
+      "deviceId": 1,
+      "type_id": 22,
+      "place_type": 1,
+      "loc_id": 2,
+      "attribute": "WindowLeft",
+      "degree": 70
+    },
+    {
+      "deviceId": 2,
+      "type_id": 37,
+      "place_type": 1,
+      "loc_id": 2,
+      "attribute": "WindowRight",
+      "degree": 90
+    }
+  ],
+  "curtains": [
+    {
+      "deviceId": 1,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 1,
+      "attribute": "WarmCurtain",
+      "degree": 70
+    },
+    {
+      "deviceId": 2,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 1,
+      "attribute": "ShadeCurtain",
+      "degree": 90
+    }
+  ],
+  "co2Pipes": [
+    {
+      "deviceId": 1,
+      "attribute": "Co2Pipe",
+      "size": 9,
+      "type_id": 8,
+      "loc_id": 1,
+      "place_type": 2,
+      "posX": 250,
+      "posY": 35,
+      "posZ": 0,
+      "rotY": 0,
+      "state": 0,
+      "uuid": "fvwuwiqfvwhivihfqwv"
+    }
+  ],
+  "leds": [
+    {
+      "deviceId": 1,
+      "attribute": "Led1",
+      "size": 6,
+      "type_id": 8,
+      "loc_id": 1,
+      "place_type": 2,
+      "posX": -250,
+      "posY": 35,
+      "posZ": 0,
+      "rotY": 0,
+      "state": 0,
+      "uuid": "fvwuwiqsfvwhivihfqwv"
+    }
+  ],
+  "airvalve": [],
+  "phvalve": [],
+  "ecvalve": [],
+  "co2Sensors": [
+    {
+      "deviceId": 1,
+      "type_id": 0,
+      "place_type": 2,
+      "loc_id": 0,
+      "attribute": "CO2Sensor",
+      "state": 0,
+      "posX": 100,
+      "posY": 45,
+      "posZ": -110,
+      "rotY": 180
+    },
+    {
+      "deviceId": 2,
+      "type_id": 0,
+      "place_type": 2,
+      "loc_id": 0,
+      "attribute": "CO2Sensor",
+      "state": 0,
+      "posX": -100,
+      "posY": 45,
+      "posZ": -110,
+      "rotY": 180
+    },
+    {
+      "deviceId": 3,
+      "type_id": 0,
+      "place_type": 2,
+      "loc_id": 0,
+      "attribute": "CO2Sensor",
+      "state": 0,
+      "posX": 100,
+      "posY": 45,
+      "posZ": 100,
+      "rotY": 180
+    },
+    {
+      "deviceId": 4,
+      "type_id": 0,
+      "place_type": 2,
+      "loc_id": 0,
+      "attribute": "CO2Sensor",
+      "state": 0,
+      "posX": -100,
+      "posY": 45,
+      "posZ": 100,
+      "rotY": 180
+    }
+  ],
+  "solarRadSensors": [
+    {
+      "deviceId": 1,
+      "type_id": 0,
+      "place_type": 2,
+      "loc_id": 0,
+      "attribute": "SolarRadiationSensor",
+      "state": 0,
+      "posX": 50,
+      "posY": 110,
+      "posZ": 180,
+      "rotY": 270
+    }
+  ],
+  "phSensors": [],
+  "soilSensors": [],
+  "pressureSensors": [],
+  "windSensors": [
+    {
+      "deviceId": 5,
+      "type_id": 0,
+      "place_type": 0,
+      "loc_id": 0,
+      "attribute": "WindSensor",
+      "state": 0,
+      "posX": 315,
+      "posY": 0,
+      "posZ": -210,
+      "rotY": 45
+    }
+  ],
+  "rainSensors": [
+    {
+      "deviceId": 1,
+      "type_id": 0,
+      "place_type": 0,
+      "loc_id": 0,
+      "attribute": "RainSensor",
+      "state": 0,
+      "posX": -315,
+      "posY": 0,
+      "posZ": -210,
+      "rotY": 45
+    }
+  ],
+  "decoratedObj": [
+    {
+      "deviceId": 1,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "HeatPump",
+      "state": 0,
+      "posX": 300,
+      "posY": 0,
+      "posZ": 300,
+      "rotY": 0
+    },
+    {
+      "deviceId": 1,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "WaterTank",
+      "state": 0,
+      "posX": 300,
+      "posY": 0,
+      "posZ": 200,
+      "rotY": 0
+    },
+    {
+      "deviceId": 1,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "WaterTankBlack",
+      "state": 0,
+      "posX": 300,
+      "posY": 0,
+      "posZ": 100,
+      "rotY": 0
+    },
+    {
+      "deviceId": 1,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "Co2GasCylinder",
+      "state": 0,
+      "posX": 300,
+      "posY": 0,
+      "posZ": 0,
+      "rotY": 0
+    },
+    {
+      "deviceId": 1,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "ControlPanel",
+      "state": 0,
+      "posX": 300,
+      "posY": 0,
+      "posZ": -100,
+      "rotY": 0
+    },
+    {
+      "deviceId": 1,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "Compressor",
+      "state": 0,
+      "posX": 300,
+      "posY": 0,
+      "posZ": -200,
+      "rotY": 0
+    },
+    {
+      "deviceId": 1,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "SignBoard",
+      "state": 0,
+      "posX": 300,
+      "posY": 0,
+      "posZ": -300,
+      "rotY": 0
+    },
+    {
+      "deviceId": 1,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "AirCylinder",
+      "state": 0,
+      "posX": 300,
+      "posY": 0,
+      "posZ": -400,
+      "rotY": 0
+    }
+  ],
+  "plants": [
+    {
+      "deviceId": 1,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "Plant1",
+      "state": 0,
+      "posX": 0,
+      "posY": 0,
+      "posZ": 300,
+      "rotY": 0
+    },
+    {
+      "deviceId": 2,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "Plant2",
+      "state": 0,
+      "posX": 0,
+      "posY": 0,
+      "posZ": 200,
+      "rotY": 0
+    },
+    {
+      "deviceId": 3,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "Plant3",
+      "state": 0,
+      "posX": 0,
+      "posY": 0,
+      "posZ": 100,
+      "rotY": 0
+    },
+    {
+      "deviceId": 4,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "Plant4",
+      "state": 0,
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotY": 0
+    },
+    {
+      "deviceId": 5,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "Plant5",
+      "state": 0,
+      "posX": 0,
+      "posY": 0,
+      "posZ": -100,
+      "rotY": 0
+    },
+    {
+      "deviceId": 6,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "Plant6",
+      "state": 0,
+      "posX": 0,
+      "posY": 0,
+      "posZ": -200,
+      "rotY": 0
+    }
+  ],
+  "heaters": [
+    {
+      "deviceId": 1,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "Heater",
+      "state": 0,
+      "posX": 400,
+      "posY": 0,
+      "posZ": -150,
+      "rotY": 0
+    },
+    {
+      "deviceId": 1,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "HeaterGray",
+      "state": 0,
+      "posX": 400,
+      "posY": 0,
+      "posZ": -250,
+      "rotY": 0
+    }
+  ],
+  "circuratorFans": [
+    {
+      "deviceId": 1,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "CircuratorFan",
+      "state": 1,
+      "posX": 100,
+      "posY": 65,
+      "posZ": -180,
+      "rotY": 0
+    },
+    {
+      "deviceId": 2,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "CircuratorFan",
+      "state": 0,
+      "posX": -100,
+      "posY": 65,
+      "posZ": -180,
+      "rotY": 0
+    },
+    {
+      "deviceId": 3,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "CircuratorFan",
+      "state": 0,
+      "posX": 200,
+      "posY": 65,
+      "posZ": 190,
+      "rotY": 180
+    },
+    {
+      "deviceId": 4,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "CircuratorFan",
+      "state": 0,
+      "posX": 0,
+      "posY": 65,
+      "posZ": 190,
+      "rotY": 180
+    },
+    {
+      "deviceId": 5,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "CircuratorFan",
+      "state": 0,
+      "posX": -200,
+      "posY": 65,
+      "posZ": 190,
+      "rotY": 180
+    }
+  ],
+  "exhaustFans": [
+    {
+      "deviceId": 1,
+      "type_id": 0,
+      "place_type": 1,
+      "loc_id": 0,
+      "attribute": "ExhaustFan",
+      "state": 0,
+      "posX": 100,
+      "posY": 65,
+      "posZ": -150,
+      "rotY": 0
+    }
+  ],
+  "gen3": [],
+  "gen4": [],
+  "coolers": []
+}

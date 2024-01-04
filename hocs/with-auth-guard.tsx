@@ -1,4 +1,4 @@
-import { AuthGuard } from "@/guards/auth.guard"
+import { AuthGuard } from "@/guards/auth-guard"
 import { PropsWithChildren } from "react";
 
 export const withAuthGuard =

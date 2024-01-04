@@ -13,6 +13,7 @@ export interface deviceInfo {
 export interface resData {
     walls: deviceInfo[];
     waterTanks: deviceInfo[];
+    heatPumps: deviceInfo[];
     fans: deviceInfo[];
     leds: deviceInfo[];
     states: number[]
